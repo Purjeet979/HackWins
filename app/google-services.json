@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "22059620360",
+    "project_id": "snehsaathi-hackathon",
+    "storage_bucket": "snehsaathi-hackathon.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22059620360:android:23d72d05f52621d4cc19bd",
+        "android_client_info": {
+          "package_name": "com.example.snehsaathi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbS8k85epzZjyCIMxICay-xv5hQVcWa2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
