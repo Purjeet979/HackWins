@@ -11,16 +11,22 @@ android {
     defaultConfig {
         applicationId = "com.example.snehsaathi"
         minSdk = 24
-        targetSdk = 34 // Set to 34 (Android 14) for better stability
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
-        buildConfigField("String", "GEMINI_API_KEY", "\"${project.findProperty("GEMINI_API_KEY")}\"")
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        vectorDrawables {
-            useSupportLibrary = true
-        }
+        val openAiKey = project.properties["OPENAI_API_KEY"] as String?
+
+        buildConfigField(
+            "String",
+            "GROQ_API_KEY",
+            "\"${project.findProperty("GROQ_API_KEY") ?: ""}\""
+        )
+
+
+
     }
+
 
     buildTypes {
         release {
@@ -62,6 +68,10 @@ dependencies {
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
+    implementation("io.ktor:ktor-client-core:2.3.7")
+    implementation("io.ktor:ktor-client-cio:2.3.7")
+    implementation("io.ktor:ktor-client-content-negotiation:2.3.7")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.2")
 
     // Testing
     testImplementation(libs.junit)
