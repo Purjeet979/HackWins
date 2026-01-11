@@ -9,6 +9,12 @@ android {
     compileSdk = 34  // Changed from complex syntax to standard integer
 
     defaultConfig {
+        android {
+            buildFeatures {
+                buildConfig = true
+            }
+        }
+
         applicationId = "com.example.snehsaathi"
         minSdk = 24
         targetSdk = 34
@@ -72,6 +78,7 @@ dependencies {
     implementation("io.ktor:ktor-client-cio:2.3.7")
     implementation("io.ktor:ktor-client-content-negotiation:2.3.7")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.2")
+    implementation("androidx.work:work-runtime-ktx:2.9.0")
 
     // Testing
     testImplementation(libs.junit)
