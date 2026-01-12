@@ -79,6 +79,8 @@ dependencies {
     implementation("io.ktor:ktor-client-content-negotiation:2.3.7")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.2")
     implementation("androidx.work:work-runtime-ktx:2.9.0")
+    implementation("com.airbnb.android:lottie-compose:6.3.0")
+    implementation("androidx.compose.material:material-icons-extended")
 
     // Testing
     testImplementation(libs.junit)

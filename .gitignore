@@ -14,12 +14,11 @@
 .cxx
 local.properties
 gradle.properties
-node_modules/
-**/node_modules/
-# Secrets
 .env
 *.env
-**/.env
+serviceAccountKey.json
+google-services.json
+node_modules/
 
 # Google / Firebase keys
 serviceAccountKey.json
