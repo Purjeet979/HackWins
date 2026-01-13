@@ -116,12 +116,9 @@ This **closes the loneliness loop** by prompting family to reconnect.
   https://github.com/Purjeet979/HackWins
 
 - **Demo Video (3 minutes):**  
-  _(Add YouTube / Drive link here)_
+ https://drive.google.com/drive/folders/17j_PTlFP8RmSxmHQ0Uu3O9PmVIW0VLa6?usp=sharing<img width="3503" height="158" alt="image" src="https://github.com/user-attachments/assets/d81ddb70-c020-4c86-b1ec-25b48e4071a4" />
 
-- **MVP:**  
-  Android APK + live demo video
-
----
+  
 
 ## 🧡 Why Sneh Saathi Matters
 
