@@ -135,7 +135,7 @@ It is designed with **dignity, empathy, and safety** at its core.
 ## 👥 Team
 
 - **Developer:** Purjeet  
-- **UI / Design:** Soham,Adiya,Parth  
+- **UI / Design:** Soham,Adiya 
 - **Project:** Hackathon Submission
 
 ---
